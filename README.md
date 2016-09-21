@@ -3,7 +3,7 @@ Instagram Challenge
 [![Build Status](https://travis-ci.org/richo225/richagram.svg?branch=master)](https://travis-ci.org/richo225/richagram)
 [![Coverage Status](https://coveralls.io/repos/github/richo225/richagram/badge.svg?branch=master)](https://coveralls.io/github/richo225/richagram?branch=master)
 
-An instagram clone developed using the Ruby on Rails framework.
+An instagram clone developed using the Ruby on Rails framework and utilising Amazon S3 for image storage. This was a project created over a single weekend during my 8th week of the [Makers Academy](https://github.com/makersacademy) bootcamp.
 
 https://richagram.herokuapp.com/
 
@@ -107,15 +107,19 @@ I would like to be able to search for pictures by tags
 
 Technologies
 ------------
-* Rails-5
+* Rails-5.0
 * Ruby
 * Postgresql
 * Rspec
 * Capybara
 * Paperclip
 * Amazon Web Services S3
-* Bootstrap-4
+* Bootstrap-4.0
 * Heroku
 
 Future implementations
 ----------------------
+- User is only able to like a picture once.
+- Ability to unlike a picture.
+- A profile section for each user where all their posts are visible.
+- Implement a choice of filters for image uploads.

@@ -62,10 +62,19 @@ feature "posts" do
       expect(page).to have_content "test@mail.com"
     end
 
-    scenario "user can view individual images" do
+    scenario "user can view individual images via description" do
       visit "/"
       click_link "Selfie"
       expect(page).to have_content "Selfie"
+    end
+
+    scenario "user can view individual images via clicking them" do
+      add_image("Wedding")
+      page.attach_file("post_image", Rails.root + "app/assets/images/smile.jpg")
+      click_button "Upload image"
+      find(:css, "img[src*='smile.jpg']").click
+      expect(page).to have_content "Wedding"
+      expect(page).to have_content "Add comment"
     end
 
     scenario "user can delete their own images" do
