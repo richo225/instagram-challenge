@@ -68,7 +68,7 @@ I want to be able to post pictures
 
 As a photographer
 So that I can show where my pictures were taken
-I want to be able to add a description to a picture
+I want to be able to add a caption to a picture
 
 As a photographer
 So that I only show my favourite pictures
@@ -77,7 +77,11 @@ I want to be able to delete a picture
 ```
 As a user
 So that I can be jealous of my friends
-I want to be able to view pictures
+I want to be able to view all pictures
+
+As a user
+So that I can observe in detail
+I want to be able to view individual images
 
 As a user
 So that I can give my opinion
@@ -93,16 +97,24 @@ Bonus user stories
 ------------------
 ```
 As a photographer
-So that others can find my pictures
-I would like to be able to add tags
+So that I can make my pictures look better
+I would like to be able to add filters to images
 
 As a photographer
-So that I can make my pictures look better
-I would like to be able to add filters to a pictures
+So that others can find my pictures
+I would like to be able to add tags
 
 As a user
 So that I can easily find interests of mine
 I would like to be able to search for pictures by tags
+
+As a user
+So that I can see my favourite photographers' work
+I would like to be able to view profiles
+
+As a user
+For when I've changed my mind about a picture
+I would like to be able to unlike an image
 ```
 
 Technologies
@@ -123,3 +135,4 @@ Future implementations
 - Ability to unlike a picture.
 - A profile section for each user where all their posts are visible.
 - Implement a choice of filters for image uploads.
+- Images can be searched for via tags given to them.
